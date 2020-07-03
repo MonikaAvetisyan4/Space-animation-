@@ -1,0 +1,239 @@
+*{
+	padding:0;
+	margin: 0;
+
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/cosmos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+.sun{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.mercury-border{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.mercury{
+	width: 120px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;right: 0;
+	bottom: 0;margin: auto;
+	animation: anim 5s infinite linear
+}
+.venus-border{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.venus{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 180px;
+	height: 100px;
+	animation: anim 7s infinite linear
+}
+.earth-border{
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.earth{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 280px;
+	height: 100px;
+	animation: anim 9s infinite linear
+}
+.mars-border{
+	position: absolute;
+	width: 330px;
+	height: 330px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.mars{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 380px;
+	height: 100px;
+	animation: anim 11s infinite linear
+}
+.jupiter-border{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.jupiter{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 520px;
+	height: 100px;
+	animation: anim 13s infinite linear
+}
+.saturn-border{
+	position: absolute;
+	width: 680px;
+	height: 680px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.saturn{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 850px;
+	height: 100px;
+	animation: anim 16s infinite linear
+}
+.uranus-border{
+	position: absolute;
+	width: 860px;
+	height: 860px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.uranus{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 950px;
+	height: 100px;
+	animation: anim 19s infinite linear
+}
+.neptune-border{
+	position: absolute;
+	width: 1030px;
+	height: 1030px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.neptune{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 1100px;
+	height: 100px;
+	animation: anim 22s infinite linear
+}
+.pluto-border{
+	position: absolute;
+	width: 1200px;
+	height: 1200px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.pluto{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 1280px;
+	height: 100px;
+	animation: anim 25s infinite linear
+}
+@keyframes anim {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+	
+	
